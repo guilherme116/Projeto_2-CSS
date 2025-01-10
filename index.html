@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto Carlos - O Rei da Música</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ececec;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1e1e1e;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        h1 {
+            font-size: 3em;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #1e1e1e;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        li {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        li::before {
+            content: "✔️";
+            margin-right: 10px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            .content {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Roberto Carlos</h1>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>Sobre Roberto Carlos</h2>
+            <p>Roberto Carlos é um dos maiores ícones da música brasileira, conhecido por suas baladas românticas e carreira de mais de 60 anos. Famoso por sua voz inconfundível e seu estilo único, ele conquistou uma legião de fãs no Brasil e ao redor do mundo.</p>
+        </div>
+
+        <div class="content">
+            <h2>Realizações</h2>
+            <ul>
+                <li>Carreira de mais de 60 anos, com centenas de discos lançados e milhões de cópias vendidas.</li>
+                <li>Recebeu diversos prêmios, incluindo o Grammy Latino e o Prêmio da Música Brasileira.</li>
+                <li>É conhecido por sucessos como "Detalhes", "Emoções", "Como é Grande o Meu Amor Por Você" e "Cavalgada".</li>
+                <li>Faz parte do movimento Jovem Guarda, que revolucionou a música brasileira na década de 1960.</li>
+            </ul>
+        </div>
+
+        <div class="image-container">
+            <img src="Roberto_Carlos.jpg" alt="Roberto Carlos">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <h2>Links</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/robertocarlosoficial?igsh=Y2diYWR5NjR3NmRj" target="_blank">instagram - Roberto Carlos</a></li>
+                <li><a href="https://www.robertocarlos.com/" target="_blank">Site Oficial de Roberto Carlos</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
